@@ -2,13 +2,59 @@
 /* Comments look like this. */
 
 /* This ruleset defines the styling for the entire body of your HTML document. */
+
+/* This CSS was being volatile so I added it to the top */
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
 body {
     /* Change this background-color. */
-    background-color: white;
+    background-color: darkred;
+    background: linear-gradient(to bottom, #441919, #000000);
+    color: white;
 }
 
-/* This defines styling for all your p elements */
-
-p {
-
+/* This defines styling for all of my elements */
+h1, h2 {
+    color: #ff4848;
+    font-family: sans-serif;
 }
+
+/* Link related things that I asked Google AI for help with */
+a:link {
+  color: #acd0ff; 
+}
+
+a:visited {
+  color: #dba8ff; 
+}
+
+a:hover {
+  color: #ff5e5e; 
+}
+
+a:active {
+  color: #ff2323; 
+}
+
+a:focus {
+  outline: 2px solid #1a73e8; 
+}
+/* END */
+
+#top {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+
+ul, ol, p {
+    font-family: Bahnscript, "Arial Rounded MT Bold", Arial, sans-serif;
+}
+
+
